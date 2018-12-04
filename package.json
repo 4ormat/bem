@@ -1,0 +1,37 @@
+{
+  "name": "bem",
+  "version": "0.0.1",
+  "description": "BEM className generator adapted for React",
+  "main": "src/index.js",
+  "dependencies": {
+    "lodash": "^4.17.11"
+  },
+  "devDependencies": {
+    "babel-jest": "^23.6.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.7.0",
+    "enzyme-adapter-react-16": "^1.7.0",
+    "jest": "^23.6.0",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "react-test-renderer": "^16.4.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/4ormat/bem.git"
+  },
+  "keywords": [
+    "bem",
+    "react"
+  ],
+  "author": "George Gritsouk <george@format.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/4ormat/bem/issues"
+  },
+  "homepage": "https://github.com/4ormat/bem#readme"
+}
