@@ -1,5 +1,5 @@
 {
-  "name": "bem",
+  "name": "@format/bem",
   "version": "0.0.1",
   "description": "BEM className generator adapted for React",
   "main": "src/index.js",
