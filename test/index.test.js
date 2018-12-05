@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { bem } from "../src/bem";
+import { bem } from "../src";
 
 import { configure } from "enzyme";
 import Adapter from "enzyme-adapter-react-16";

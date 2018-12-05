@@ -2,11 +2,12 @@
   "name": "@format/bem",
   "version": "0.0.2",
   "description": "BEM className generator adapted for React",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "dependencies": {
     "lodash": "^4.17.11"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
@@ -18,7 +19,8 @@
     "react-test-renderer": "^16.4.0"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "babel src --out-dir dist"
   },
   "repository": {
     "type": "git",
