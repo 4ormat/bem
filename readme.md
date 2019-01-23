@@ -2,6 +2,8 @@
 
 A small utility for creating old-school BEM classes, especially in a React context.
 
+NOTE: Maintained for internal use only.
+
 ## Quickstart
 
 Given a component definition
