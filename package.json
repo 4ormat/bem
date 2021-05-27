@@ -19,6 +19,11 @@
     "react-dom": "^16.12.0",
     "react-test-renderer": "^16.12.0"
   },
+  "resolutions": {
+    "mixin-deep": ">=1.3.2",
+    "underscore": ">=1.12.1",
+    "set-value": ">=2.0.1"
+  },
   "scripts": {
     "test": "jest",
     "build": "babel src --out-dir dist"
