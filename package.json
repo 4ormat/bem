@@ -4,7 +4,7 @@
   "description": "BEM className generator adapted for React",
   "main": "dist/index.js",
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@babel/core": "^7.14.3",
@@ -22,7 +22,8 @@
   "resolutions": {
     "mixin-deep": ">=1.3.2",
     "underscore": ">=1.12.1",
-    "set-value": ">=2.0.1"
+    "set-value": ">=2.0.1",
+    "kind-of": ">=6.0.3"
   },
   "scripts": {
     "test": "jest",
